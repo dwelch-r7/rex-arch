@@ -1,0 +1,10 @@
+name: Verify
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    uses: dwelch-r7/metasploit-framework/.github/workflows/shared_gem_verify.yml@f193813073417bda048e856023057c669a0475ab
