@@ -7,4 +7,4 @@ permissions:
 
 jobs:
   test:
-    uses: dwelch-r7/metasploit-framework/.github/workflows/shared_gem_verify.yml@f193813073417bda048e856023057c669a0475ab
+    uses: dwelch-r7/metasploit-framework/.github/workflows/shared_gem_verify.yml@a4e4b322ab37f00a5953be7d999e3c3e4a86dba7
